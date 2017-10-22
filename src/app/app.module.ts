@@ -6,13 +6,12 @@ import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
     TestComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-      bootstrap: [AppComponent,TestComponent]
+      bootstrap: [TestComponent]
 })
 export class AppModule { }
